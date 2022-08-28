@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.pding-10{
+    padding: 10px;
+}
+.pding-20{
+    padding: 20px;
+}
+.pding-30{
+    padding: 30px;
+}
+.pding-40{
+    padding: 40px;
+}
+.pding-left-10{
+    padding-left: 10px;
+}
+.mgin-10{
+    margin: 10px;
+}
+.mgin-20{
+    margin: 20px;
+}
+.mgin-30{
+    margin: 30px;
+}
+.mgin-40{
+    margin: 40px;
+}
+   
+body{
+    background: linear-gradient(#2b1055, #7597de);
+    
+}
+.nav .container .menu-desktop{
+    position: absolute;
+    z-index: 999999;
+}
+
+header {
+    height: 100vh;
+    overflow-x: hidden;
+}
+header #hero{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+        box-shadow: inset 120px 100px 250px #000;
+    
+    
+}
+header #hero img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+header #hero #moon{
+    mix-blend-mode: screen;
+}
+header #hero #font{
+    z-index: 0;
+}
+header #hero #text{
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+}
+
+header #hero #button{
+    color: #000;
+    width: 60px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+
+}
+
+header main .text-main{
+    width: 80%;
+
+}
